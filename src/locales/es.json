@@ -1,0 +1,9 @@
+{
+  "menu": {
+    "index" : "Inicio",
+    "about" : "Nosotros",
+    "services": "Servicios",
+    "clients": "Clientes",
+    "contact": "Contacto"
+  }
+}

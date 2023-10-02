@@ -1,0 +1,9 @@
+{
+  "menu": {
+    "index" : "Home",
+    "about" : "About Us",
+    "services": "Services",
+    "clients": "Clients",
+    "contact": "Contact Us"
+  }
+}
