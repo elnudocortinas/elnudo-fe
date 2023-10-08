@@ -10,5 +10,17 @@
     "sub": "Elegancia y Funcionalidad",
     "title": "en cada detalle",
     "button" : "Cotiza tu proyecto"
+  },
+  "about": {
+    "title": "Acerca de",
+    "sub": "Nosotros",
+    "text1": "A lo largo de los años, hemos reorganizado y modernizado nuestra operación para estar",
+    "text2": "a la vanguardia de la industria del diseño de interiores.",
+    "text3": "Hemos evolucionado en una empresa que ofrece una",
+    "text4": "gama completa de soluciones, materiales y acabados.",
+    "text5": "Nuestro ",
+    "text6": "compromiso con la satisfacción del cliente",
+    "text7": "ha sido el pilar de nuestro proceso. Con una atención personal y confiable",
+    "text8": "dentro y fuera del país."
   }
 }

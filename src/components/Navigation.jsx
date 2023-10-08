@@ -1,5 +1,5 @@
 import { useStore } from '@nanostores/react'
-import { lang, handleLang } from '../stores/lang'
+import { lang, handleLang } from '@stores/lang'
 import { useState } from 'react'
 
 const Navigation = () => {

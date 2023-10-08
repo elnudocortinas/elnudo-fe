@@ -1,6 +1,6 @@
 import { atom } from 'nanostores'
-import es from '../locales/es.json'
-import en from '../locales/en.json'
+import es from '@locales/es.json'
+import en from '@locales/en.json'
 
 const langs = [ 
   {

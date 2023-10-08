@@ -1,11 +1,11 @@
 import { useStore } from '@nanostores/react'
-import { lang } from '../stores/lang'
+import { lang } from '@stores/lang'
 import styles from './HomeSlider.module.css'
 
 const HomeSlider = () => {
   const currentLang = useStore(lang)
   return(
-    <header className={`${styles.homeslider} max-w-7xl mx-auto`}>
+    <header className={`${styles.homeslider} max-w-7xl mx-auto md:mt-12 md:mb-32`}>
       <p className={`${styles.previous} grid place-content-center`}></p>
       <div className={`${styles.back} bg-black text-white`}>
         <section className="grid place-content-center p-8"> 
@@ -13,8 +13,8 @@ const HomeSlider = () => {
           <button className="bg-secondary px-4 py-2 rounded-full text-default">{currentLang.locale.slider.button}</button>
         </section>
       </div>
-      <img className={`hidden md:block ${styles.image}`}  src="/images/slider1.png" alt="" />
-      <p className={`${styles.next} grid place-content-center`}></p>
+      <img className={`${styles.image}`}  src="/images/slider1.png" alt="" />
+      <p className={`${styles.next} grid place-content-center bg-black`}></p>
     </header>
   )
 }
