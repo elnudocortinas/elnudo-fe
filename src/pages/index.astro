@@ -1,7 +1,8 @@
 ---
-import HomeSlider from '@components/HomeSlider';
+import HomeSlider from '@components/HomeSlider'
 import AboutUs from '@components/AboutUs'
-import Layout from '../layouts/Layout.astro';
+import CharacterizesUs from '@components/CharacterizesUs'
+import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title="Persianas y Cortinas El Nudo">
@@ -9,5 +10,6 @@ import Layout from '../layouts/Layout.astro';
 	<main class="bg-white md:py-10">
 		<HomeSlider client:visible	/>
 		<AboutUs client:visible />
+		<CharacterizesUs client:visible />
 	</main>
 </Layout>
