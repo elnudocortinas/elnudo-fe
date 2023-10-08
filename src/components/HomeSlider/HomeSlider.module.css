@@ -16,7 +16,22 @@
   .next { grid-area: 3 / 5 / 4 / 6; }
 
   @media screen and (width < 480px) {
+    .homeslider{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      gap: 0;
+    }
+    .previous{
+      display: none;
+    }
+    .next{
+      display: none;
+    }
     .back{
       grid-template-columns: 1fr;
+      grid-area: 2;
+    }
+    .image{
+      grid-area: 1;
     }
   }

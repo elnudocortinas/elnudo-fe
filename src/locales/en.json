@@ -10,5 +10,17 @@
     "sub": "Elegance and Functionality",
     "title": "in every detail",
     "button" : "Quote your project"
+  },
+  "about": {
+    "title": "About",
+    "sub": "Us",
+    "text1": "Over the years, we have reorganized and modernized our operation to be",
+    "text2": "at the forefront of the interior design industry.",
+    "text3": "We have evolved into a company that offers a",
+    "text4": "complete range of solutions, materials and finishes.",
+    "text5": "Our",
+    "text6": "commitment to customer satisfaction",
+    "text7": "has been the cornerstone of our process. With personal and reliable attention",
+    "text8": "inside and outside the country."
   }
 }

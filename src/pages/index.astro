@@ -1,12 +1,13 @@
 ---
-import HomeSlider from '../components/HomeSlider';
+import HomeSlider from '@components/HomeSlider';
+import AboutUs from '@components/AboutUs'
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Persianas y Cortinas El Nudo">
 	
-	<main class="bg-white py-10">
+	<main class="bg-white md:py-10">
 		<HomeSlider client:visible	/>
+		<AboutUs client:visible />
 	</main>
 </Layout>
-
