@@ -5,5 +5,10 @@
     "services": "Services",
     "clients": "Clients",
     "contact": "Contact Us"
+  },
+  "slider": {
+    "sub": "Elegance and Functionality",
+    "title": "in every detail",
+    "button" : "Quote your project"
   }
 }

@@ -5,5 +5,10 @@
     "services": "Servicios",
     "clients": "Clientes",
     "contact": "Contacto"
+  },
+  "slider": {
+    "sub": "Elegancia y Funcionalidad",
+    "title": "en cada detalle",
+    "button" : "Cotiza tu proyecto"
   }
 }
