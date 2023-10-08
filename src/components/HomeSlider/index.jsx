@@ -14,7 +14,7 @@ const HomeSlider = () => {
         </section>
       </div>
       <img className={`${styles.image}`}  src="/images/slider1.png" alt="" />
-      <p className={`${styles.next} grid place-content-center bg-black`}></p>
+      <p className={`${styles.next} grid place-content-center`}></p>
     </header>
   )
 }
