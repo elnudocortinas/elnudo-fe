@@ -11,9 +11,11 @@ module.exports = {
 		},
 		fontSize: {
 			default: ['18px', {lineHeight: '24px', fontWeight: 400}],
-			large: ['24px', {lineHeight: '48px', fontWeight: 300}],
-			subtitle: ['48px', { lineHeight: '62px', fontWeight: 700}],
-			title: ['62px', {lineHeight: '80px', fontWeight: 700}]
+			bold: ['18px', {lineHeight: '24px', fontWeight: 700}],
+			large: ['32px', {lineHeight: '48px', fontWeight: 300}],
+			subtitle: ['32px', { lineHeight: '48px', fontWeight: 700}],
+			custom: ['46px', {lineHeight: '32px', fontWeight: 700}],
+			title: ['64px', {lineHeight: '46px', fontWeight: 700}]
 		},
 		fontFamily:{
 			myriad: ['myriad-pro','sans-serif'],
