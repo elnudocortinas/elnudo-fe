@@ -12,7 +12,7 @@ module.exports = {
 		fontSize: {
 			default: ['18px', {lineHeight: '24px', fontWeight: 400}],
 			large: ['24px', {lineHeight: '48px', fontWeight: 300}],
-			subtitle: ['48px', { lineHeight: '62px', fontWeight: 300}],
+			subtitle: ['48px', { lineHeight: '62px', fontWeight: 700}],
 			title: ['62px', {lineHeight: '80px', fontWeight: 700}]
 		},
 		fontFamily:{

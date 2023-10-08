@@ -14,3 +14,9 @@
   }
   .image { grid-area: 1 / 3 / 6 / 4; }
   .next { grid-area: 3 / 5 / 4 / 6; }
+
+  @media screen and (width < 480px) {
+    .back{
+      grid-template-columns: 1fr;
+    }
+  }
