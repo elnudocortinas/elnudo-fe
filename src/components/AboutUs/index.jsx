@@ -12,7 +12,7 @@ const AboutUs = () => {
       </div>
       <div className={`${styles.text} bg-light p-8 text-center grid place-content-center`}>
         <h2 className='text-large'>{currentLang.locale.about.title}<br /><span className='text-custom uppercase text-secondary'>{currentLang.locale.about.sub}</span></h2>
-        <p className='max-w-sm'>
+        <p className='max-w-xs'>
           {currentLang.locale.about.text1} <span className='text-secondary text-bold'>{currentLang.locale.about.text2} </span>
           {currentLang.locale.about.text3} <span className='text-secondary text-bold'>{currentLang.locale.about.text4} </span><br /> 
           {currentLang.locale.about.text5} <span className='text-secondary text-bold'> {currentLang.locale.about.text6} </span>
