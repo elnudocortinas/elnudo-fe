@@ -30,5 +30,8 @@
     "vanguard": "Vaguardia",
     "etic":"Ética",
     "trust":"Confianza"
+  },
+  "gallery":{
+    "button": "Descarga nuestro Catálogo"
   }
 }

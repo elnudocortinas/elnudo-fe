@@ -1,4 +1,6 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react'
+import { useStore } from '@nanostores/react'
+import { lang, handleLang } from '@stores/lang'
 import {Autoplay, Navigation} from 'swiper/modules'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
@@ -7,6 +9,7 @@ import GalleryTab from './GalleryTab'
 import GallerySlider from './GallerySlider'
 
 const Gallery = () => {
+  const currentLang = useStore(lang)
   const [currentTab, setCurrentTab] = useState(1)
   const [services, setServices]= useState(null)
   const [currentService, setCurrentService]= useState(null)
@@ -38,7 +41,9 @@ const Gallery = () => {
         {
           currentService && <GallerySlider slides={currentService?.attributes?.gallery.data} />
         }
+         <a className="grid max-w-[250px] mx-auto text-center -mb-20 p-6 bg-secondary rounded-lg">{currentLang.locale.gallery.button}</a>
       </div>
+     
     </section>)
 }
 

@@ -30,5 +30,8 @@
     "vanguard": "Vanguard",
     "etic":"Etic",
     "trust":"Trust"
+  },
+  "gallery":{
+    "button": "Download our Catalog"
   }
 }
