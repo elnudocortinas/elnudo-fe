@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react"
-import GalleryTab from "./GalleryTab"
+import {Autoplay, Navigation} from 'swiper/modules'
+import {Swiper, SwiperSlide} from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import GalleryTab from './GalleryTab'
+import GallerySlider from './GallerySlider'
 
 const Gallery = () => {
   const [currentTab, setCurrentTab] = useState(1)
@@ -29,10 +34,9 @@ const Gallery = () => {
           )}
         </ul>
       </header>
-      <div className="bg-black text-white p-10">
+      <div className="bg-black text-white p-12">
         {
-          currentService && 
-          <img src={currentService.attributes.gallery.data[0].attributes.url} />
+          currentService && <GallerySlider slides={currentService?.attributes?.gallery.data} />
         }
       </div>
     </section>)
