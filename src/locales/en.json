@@ -1,0 +1,55 @@
+{
+  "menu": {
+    "index" : "Home",
+    "about" : "About Us",
+    "services": "Services",
+    "clients": "Clients",
+    "contact": "Contact Us"
+  },
+  "slider": {
+    "sub": "Elegance and Functionality",
+    "title": "in every detail",
+    "button" : "Quote your project"
+  },
+  "about": {
+    "title": "About",
+    "sub": "Us",
+    "text1": "Over the years, we have reorganized and modernized our operation to be",
+    "text2": "at the forefront of the interior design industry.",
+    "text3": "We have evolved into a company that offers a",
+    "text4": "complete range of solutions, materials and finishes.",
+    "text5": "Our",
+    "text6": "commitment to customer satisfaction",
+    "text7": "has been the cornerstone of our process. With personal and reliable attention",
+    "text8": "inside and outside the country."
+  },
+  "characterizes": {
+    "title": "What characterizes us",
+    "profesionalism": "Profesionalism",
+    "attention": "Attention",
+    "vanguard": "Vanguard",
+    "etic":"Etic",
+    "trust":"Trust"
+  },
+  "gallery":{
+    "button": "Download our Digital Catalog"
+  },
+  "reviews": {
+    "sub1": "Clientes",
+    "sub2": "que han confiado",
+    "sub3": "en nosotros",
+    "testimony": "Testimony" 
+  },
+  "contact": {
+    "title": "Contact Us!",
+    "subtitle": "We'll reach out you, as soon as posible",
+    "name": "Full Name",
+    "email" : "Email", 
+    "phone" : "Phone Number",
+    "message" : "Message",
+    "submit": "Submit",
+    "required" : "Required",
+    "error" : "Invalid email",
+    "submitted" : "We'll reach out you"
+  }
+}

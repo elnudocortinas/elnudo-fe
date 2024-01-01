@@ -1,10 +1,21 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import HomeSlider from '@components/HomeSlider'
+import AboutUs from '@components/AboutUs'
+import CharacterizesUs from '@components/CharacterizesUs'
+import Gallery from '@components/Gallery'
+import Reviews from '@components/Reviews'
+import Contact from '@components/Contact'
+import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title="Persianas y Cortinas El Nudo">
-	<main class="min-h-screen bg-teal-100 grid place-content-center">
-		Pagina en Contrucción
+	
+	<main class="bg-white md:pt-10">
+		<HomeSlider client:visible	/>
+		<AboutUs client:visible />
+		<CharacterizesUs client:visible />
+		<Gallery client:visible />
+		<Reviews client:visible />
+		<Contact client:visible />
 	</main>
 </Layout>
-
