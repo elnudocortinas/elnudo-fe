@@ -23,8 +23,8 @@ const Navigation = () => {
           <li><a href="/#services">{currentLang.locale.menu.services}</a></li>
           <li><a href="/#clients">{currentLang.locale.menu.clients}</a></li>
           <li><a href="/#contact">{currentLang.locale.menu.contact}</a></li>
-          <li><a href="" target='_blank'><img src="/images/insta.svg" alt="" width={24} /></a></li>
-          <li><a href="" target='_blank'><img src="/images/face.svg" alt="" width={12} /></a></li>
+          <li><a href="https://www.instagram.com/cortinaselnudo?igsh=MTVxbzZkb2gzNGljYg==" target='_blank'><img src="/images/insta.svg" alt="" width={24} /></a></li>
+          <li><a href="https://www.facebook.com/CortinaselNudo?mibextid=LQQJ4d" target='_blank'><img src="/images/face.svg" alt="" width={12} /></a></li>
           <li className="font-light cursor-pointer" onClick={handleLang}>{currentLang.flag}</li> 
         </ul>
       </div>

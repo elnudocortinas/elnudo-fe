@@ -18,8 +18,8 @@ const Footer = () => {
           <p>Mariano Jimenez #160 <br />Tepatitlán Jalisco</p>
           <a href="/privacy-policy">Aviso de Privacidad</a>
           <div className='flex gap-5 w-full justify-end items-end'>
-          <a href="" target='_blank'><img src="/images/insta.svg" alt="" width={24} /></a>
-          <a href="" target='_blank'><img src="/images/face.svg" alt="" width={12} /></a>
+          <a href="https://www.instagram.com/cortinaselnudo?igsh=MTVxbzZkb2gzNGljYg==" target='_blank'><img src="/images/insta.svg" alt="" width={24} /></a>
+          <a href="https://www.facebook.com/CortinaselNudo?mibextid=LQQJ4d" target='_blank'><img src="/images/face.svg" alt="" width={12} /></a>
           </div>
         </div>
       </section>
