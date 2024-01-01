@@ -1,14 +1,14 @@
 .about {
   display: grid;
-  grid-template-columns: 1.5fr 1.5fr .5fr .5fr 1fr 1.5fr;
+  grid-template-columns: 1.5fr 1.5fr .5fr .5fr .5fr 1.5fr;
   grid-template-rows: repeat(2, .5fr) repeat(3, 1fr) repeat(2, .5fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .back { grid-area: 3 / 1 / 6 / 7; }
-.image { grid-area: 1 / 2 / 8 / 5; }
-.text { grid-area: 2 / 3 / 7 / 6; }
+.image { grid-area: 1 / 2 / 7 / 4; }
+.text { grid-area: 2 / 4 / 6 / 6; }
 
 @media screen and (width < 480px) {
   .about{
