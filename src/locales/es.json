@@ -39,5 +39,17 @@
     "sub2": "que han confiado",
     "sub3": "en nosotros",
     "testimony": "Testimonio" 
+  },
+  "contact": {
+    "title": "¡Contactanos!",
+    "subtitle": "Nos comunicaremos contigo, lo mas prionto posible",
+    "name": "Nombre Completo",
+    "email" : "Correo Elextrónico", 
+    "phone" : "Teléfono",
+    "message" : "Mensaje",
+    "submit": "Enviar",
+    "required" : "Obligatorio",
+    "error" : "Correo invalido",
+    "submitted" : "Nos pondremos en contacto contigo"
   }
 }

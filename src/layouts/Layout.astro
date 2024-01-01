@@ -1,6 +1,10 @@
 ---
 import Navigation from '@components/Navigation.jsx'
-const { title } = Astro.props;
+export interface Props {
+	title: string
+}
+
+const { title } = Astro.props
 ---
 
 <!doctype html>
@@ -15,6 +19,6 @@ const { title } = Astro.props;
 	</head>
 	<body class="text-default bg-light font-myriad">
 		<Navigation client:load/>
-		<slot /> 
+			<slot />
 	</body>
 </html>
