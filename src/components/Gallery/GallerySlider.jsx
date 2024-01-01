@@ -4,7 +4,6 @@ import 'swiper/css'
 import 'swiper/css/navigation';
 
 const GallerySlider = ({slides}) => {
-  console.log(slides)
   return(
     <Swiper
       modules={[Autoplay, Navigation]}

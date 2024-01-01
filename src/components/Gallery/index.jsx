@@ -7,20 +7,16 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import GalleryTab from './GalleryTab'
 import GallerySlider from './GallerySlider'
+import { fetchServices } from 'src/api/api'
+
+const services = await fetchServices()
 
 const Gallery = () => {
   const currentLang = useStore(lang)
   const [currentTab, setCurrentTab] = useState(1)
-  const [services, setServices]= useState(null)
   const [currentService, setCurrentService]= useState(null)
   useEffect(() => {
-    fetch('https://elnudo-api.up.railway.app/api/services?populate=*&sort[0]=order:asc')
-    .then(res => res.json())
-    .then(res => {
-      const { data } = res 
-      setServices(Object.entries(data))
-      setCurrentService(data.find(service => service.id === currentTab))
-    }) 
+    setCurrentService(services.find(service => service.id === currentTab)) 
   }, [currentTab])
 
   return(
@@ -29,17 +25,17 @@ const Gallery = () => {
         <h2 className="text-subtitle max-w-[20ch]">Nuestros <br /> <span className="text-secondary uppercase text-custom ">Servicios <br />y Productos</span></h2>
         <ul className="flex flex-col md:flex-row w-full md:w-auto justify-between gap-[1px] text-center">
           {services && services.map(service => {
-            const { id, attributes } = service[1]
-            const { name } = attributes
+            const { id, name} = service
             return (
               <GalleryTab key={`service-${id}`} text={name} id={id} active={currentTab} setCurrentTab={setCurrentTab} />
-            )}
+            )
+          }
           )}
         </ul>
       </header>
       <div className="bg-black text-white p-12">
         {
-          currentService && <GallerySlider slides={currentService?.attributes?.gallery.data} />
+          currentService && <GallerySlider slides={currentService.gallery.data} />
         }
          <a className="grid max-w-[250px] mx-auto text-center -mb-20 p-6 bg-secondary rounded-lg">{currentLang.locale.gallery.button}</a>
       </div>

@@ -32,6 +32,12 @@
     "trust":"Confianza"
   },
   "gallery":{
-    "button": "Descarga nuestro Catálogo"
+    "button": "Descarga nuestro Catálogo Digital"
+  },
+  "reviews": {
+    "sub1": "Clientes",
+    "sub2": "que han confiado",
+    "sub3": "en nosotros",
+    "testimony": "Testimonio" 
   }
 }
