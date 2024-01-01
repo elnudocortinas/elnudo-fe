@@ -8,7 +8,7 @@ const reviews = await fetchTestimonials()
 const Reviews = () => {
   const currentLang = useStore(lang)
   return (
-    <div className="grid place-content-center py-12 max-w-7xl mx-auto mt-20">
+    <div className="grid place-content-center py-12 max-w-7xl mx-auto mt-20" id='clients'>
       <h2 className='uppercase text-center text-secondary text-title'>
         {currentLang.locale.reviews.sub1}<br /><span className="text-black text-subtitle">{currentLang.locale.reviews.sub2}</span><br />{currentLang.locale.reviews.sub3}
       </h2>

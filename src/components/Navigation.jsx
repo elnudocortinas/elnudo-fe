@@ -18,11 +18,11 @@ const Navigation = () => {
           <img src="/images/logo.png" className="max-w-[120px] justify-self-center" alt=""/>
         </section>
         <ul className={`gap-10 items-center justify-center w-full  md:justify-end  ${isOpen ? 'flex flex-col md:flex-row' : 'hidden md:flex'} `}>
-          <li>{currentLang.locale.menu.index}</li>
-          <li>{currentLang.locale.menu.about}</li>
-          <li>{currentLang.locale.menu.services}</li>
-          <li>{currentLang.locale.menu.clients}</li>
-          <li>{currentLang.locale.menu.contact}</li>
+          <li><a href="/">{currentLang.locale.menu.index}</a></li>
+          <li><a href="/#about-us">{currentLang.locale.menu.about}</a></li>
+          <li><a href="/#services">{currentLang.locale.menu.services}</a></li>
+          <li><a href="/#clients">{currentLang.locale.menu.clients}</a></li>
+          <li><a href="/#contact">{currentLang.locale.menu.contact}</a></li>
           <li><a href="" target='_blank'><img src="/images/insta.svg" alt="" width={24} /></a></li>
           <li><a href="" target='_blank'><img src="/images/face.svg" alt="" width={12} /></a></li>
           <li className="font-light cursor-pointer" onClick={handleLang}>{currentLang.flag}</li> 

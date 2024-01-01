@@ -6,7 +6,7 @@ import FormInput from './FormInput'
 const Contact = () => {
   const currentLang = useStore(lang)
   return (
-    <div className="h-fit bg-[url('/images/contact.png')] p-10 text-white text-center">
+    <div className="h-fit bg-[url('/images/contact.png')] p-10 text-white text-center" id='contact'>
       <div className="max-w-7xl mx-auto">
         <h3 className="text-subtitle md:text-title uppercase">{currentLang.locale.contact.title}</h3>
         <p className="text-subtitle">{currentLang.locale.contact.subtitle}</p>

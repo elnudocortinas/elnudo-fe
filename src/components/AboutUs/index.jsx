@@ -5,7 +5,7 @@ import styles from './AboutUs.module.css'
 const AboutUs = () => {
   const currentLang = useStore(lang)
   return(
-    <div className={`${styles.about} md:my-5`}>
+    <div className={`${styles.about} md:my-5`} id='about-us'>
       <div className={`${styles.back} bg-black`}></div>
       <div className={styles.image}>
         <img src="/images/about.png" alt="" />
