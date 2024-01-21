@@ -32,6 +32,9 @@
     "trust":"Confianza"
   },
   "gallery":{
+    "title": "Nuestros",
+    "subtitle1":"Productos",
+    "subtitle2":"y Servicios",
     "button": "Descarga nuestro Catálogo Digital"
   },
   "reviews": {
