@@ -37,7 +37,7 @@ const Gallery = () => {
         {
           currentService && <GallerySlider slides={currentService.gallery.data} />
         }
-         <a className="grid max-w-[250px] mx-auto text-center -mb-20 p-6 bg-secondary rounded-lg">{currentLang.locale.gallery.button}</a>
+         {/* <a className="grid max-w-[250px] mx-auto text-center -mb-20 p-6 bg-secondary rounded-lg">{currentLang.locale.gallery.button}</a> */}
       </div>
      
     </section>)
