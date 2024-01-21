@@ -29,7 +29,6 @@ const GallerySlider = ({slides}) => {
       }}
       navigation={{enabled: true}}
       loop
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {slides.map(item => (
         <SwiperSlide key={item.attributes.name}>
