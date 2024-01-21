@@ -32,12 +32,15 @@
     "trust":"Trust"
   },
   "gallery":{
+    "title": "Our",
+    "subtitle1":"Products",
+    "subtitle2":"& Services",
     "button": "Download our Digital Catalog"
   },
   "reviews": {
-    "sub1": "Clientes",
-    "sub2": "que han confiado",
-    "sub3": "en nosotros",
+    "sub1": "CLients",
+    "sub2": "who have trusted",
+    "sub3": "US",
     "testimony": "Testimony" 
   },
   "contact": {
