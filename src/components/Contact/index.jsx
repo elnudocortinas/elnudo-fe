@@ -2,6 +2,7 @@ import { useStore } from '@nanostores/react'
 import { lang } from '@stores/lang'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import FormInput from './FormInput'
+import { sendMessage } from 'src/api/api'
 
 const Contact = () => {
   const currentLang = useStore(lang)
@@ -40,13 +41,7 @@ const Contact = () => {
                 const message = {
                   data: values
                 }
-                const result = await fetch('https://elnudo-api.up.railway.app/api/messages', {
-                  method: 'POST',
-                  headers: {
-                    'Content-Type': 'application/json'
-                  },
-                  body: JSON.stringify(message, null, 2)
-                })
+                const result = await sendMessage(message)
                 const json = await result.json()
                 const { data } = await json
                 if (data) {
