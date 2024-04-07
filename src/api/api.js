@@ -1,4 +1,4 @@
-const API = 'https://elnudo-api2.up.railway.app/api/'
+const API = 'https://elnudo-api.up.railway.app/api/'
 
 export const fetchServices = async () => {
   try{
