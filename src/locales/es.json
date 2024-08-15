@@ -30,5 +30,29 @@
     "vanguard": "Vaguardia",
     "etic":"Ética",
     "trust":"Confianza"
+  },
+  "gallery":{
+    "title": "Nuestros",
+    "subtitle1":"Productos",
+    "subtitle2":"y Servicios",
+    "button": "Descarga nuestro Catálogo Digital"
+  },
+  "reviews": {
+    "sub1": "Clientes",
+    "sub2": "que han confiado",
+    "sub3": "en nosotros",
+    "testimony": "Testimonio" 
+  },
+  "contact": {
+    "title": "¡Contactanos!",
+    "subtitle": "Nos comunicaremos contigo, lo mas pronto posible",
+    "name": "Nombre Completo",
+    "email" : "Correo Electrónico", 
+    "phone" : "Teléfono",
+    "message" : "Mensaje",
+    "submit": "Enviar",
+    "required" : "Obligatorio",
+    "error" : "Correo invalido",
+    "submitted" : "Nos pondremos en contacto contigo"
   }
 }

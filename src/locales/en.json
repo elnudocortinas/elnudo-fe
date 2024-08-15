@@ -30,5 +30,29 @@
     "vanguard": "Vanguard",
     "etic":"Etic",
     "trust":"Trust"
+  },
+  "gallery":{
+    "title": "Our",
+    "subtitle1":"Products",
+    "subtitle2":"& Services",
+    "button": "Download our Digital Catalog"
+  },
+  "reviews": {
+    "sub1": "CLients",
+    "sub2": "who have trusted",
+    "sub3": "US",
+    "testimony": "Testimony" 
+  },
+  "contact": {
+    "title": "Contact Us!",
+    "subtitle": "We'll reach out you, as soon as posible",
+    "name": "Full Name",
+    "email" : "Email", 
+    "phone" : "Phone Number",
+    "message" : "Message",
+    "submit": "Submit",
+    "required" : "Required",
+    "error" : "Invalid email",
+    "submitted" : "We'll reach out you"
   }
 }
