@@ -8,7 +8,7 @@ const AboutUs = () => {
     <div className={`${styles.about} md:my-5`} id='about-us'>
       <div className={`${styles.back} bg-black`}></div>
       <div className={styles.image}>
-        <img src="/images/nudo.webp" alt="" />
+        <img src="/images/about.webp" alt="" />
       </div>
       <div className={`${styles.text} bg-light p-8 text-center grid place-content-center shadow-inner border` }>
         <h2 className='text-large'>{currentLang.locale.about.title}<br /><span className='text-custom uppercase text-secondary'>{currentLang.locale.about.sub}</span></h2>
