@@ -13,7 +13,7 @@ const Reviews = () => {
         {currentLang.locale.reviews.sub1}<br /><span className="text-black text-subtitle">{currentLang.locale.reviews.sub2}</span><br />{currentLang.locale.reviews.sub3}
       </h2>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-20 mt-20 p-8">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-20 p-8">
         {
           reviews && reviews.map(item => {
             const {id, name, body} = item
